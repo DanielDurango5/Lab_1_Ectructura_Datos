@@ -2,7 +2,7 @@ import numpy as np
 
 filas = 100_000
 columnas = 100_000
-nombre_archivo = "matriz_bits.bin"
+nombre_archivo = "lab_1_matriz_100k.bin"
 
 with open(nombre_archivo, "wb") as f:
     for _ in range(filas):
