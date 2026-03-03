@@ -10,4 +10,4 @@ with open(nombre_archivo, "wb") as f:
         fila_comprimida = np.packbits(fila)
         f.write(fila_comprimida)
 
-print("Archivo creado correctamente (modo bits).")
+print("Archivo creado.")
